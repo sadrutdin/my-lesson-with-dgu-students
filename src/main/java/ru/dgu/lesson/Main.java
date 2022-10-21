@@ -1,4 +1,4 @@
-package mvnproj;
+package ru.dgu.lesson;
 
 public class Main {
     public static void main(String[] args) {

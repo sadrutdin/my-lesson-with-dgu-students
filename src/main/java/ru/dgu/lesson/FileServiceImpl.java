@@ -1,4 +1,4 @@
-package mvnproj;
+package ru.dgu.lesson;
 
 import org.apache.commons.io.FileUtils;
 
