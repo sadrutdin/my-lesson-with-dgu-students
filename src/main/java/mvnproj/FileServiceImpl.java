@@ -10,7 +10,7 @@ import java.util.List;
 public class FileServiceImpl implements FileService {
     @Override
     public void printAll(String path) {
-        File file = new File("C:\\Users\\SAZay\\IdeaProjects\\FirstMavenProject\\src\\main\\resources\\example.txt");
+        File file = new File(path);
         try {
             List<String> list = FileUtils.readLines(file, StandardCharsets.UTF_8);
             list.forEach(System.out::println);
