@@ -15,8 +15,6 @@ public class Main {
             list.forEach(System.out::println);
         } catch (IOException e) {
             throw new RuntimeException(e);
-
-
         }
     }
 }
